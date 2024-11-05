@@ -1,12 +1,9 @@
 # Find a Solana vanity address using GPUs
 
-I originally copied this from here: https://github.com/ChorusOne/solanity
+I copied this https://github.com/mcf-rocks/solanity
 
 Then I made the following changes:
-1. Initialise the search using entropy from the OS (it was deterministic)
-2. Exact matches only (there was some weird lowercase thing going on)
-3. Exit criteria based on number of keys found or iterations
-4. Output Solana keypair in log
+1. Made scans case insensitive
 
 When it finds a match, it will log a line starting with MATCH, you will see the vanity address found and the secret (seed) in hex.
 
