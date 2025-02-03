@@ -1,5 +1,7 @@
 # Find a Solana vanity address using GPUs
 
+Use this for fastest grind: https://cloud.vast.ai/?ref_id=172975
+
 I copied this https://github.com/mcf-rocks/solanity
 
 Then I made the following changes:
